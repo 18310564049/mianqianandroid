@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./simpleDemo/libs/AnyChatLoanInterviewRemote.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bca4474880a51c8f76b9b702b229e3b8/jetified-AnyChatLoanInterviewRemote/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bca4474880a51c8f76b9b702b229e3b8/jetified-AnyChatLoanInterviewRemote/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bca4474880a51c8f76b9b702b229e3b8/jetified-AnyChatLoanInterviewRemote/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

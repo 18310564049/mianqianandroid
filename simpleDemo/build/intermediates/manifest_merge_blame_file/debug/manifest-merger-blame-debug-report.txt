@@ -1,0 +1,516 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.com.spdbfl"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:5:9-70
+11-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:5:26-68
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:6:9-84
+12-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:6:26-82
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:7:9-83
+13-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:7:26-81
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:8:9-74
+14-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:8:26-72
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:9:9-83
+15-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:9:26-81
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:10:9-68
+16-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:10:26-66
+17
+18    <supports-screens
+18-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
+19        android:anyDensity="true"
+19-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:8:9-34
+20        android:largeScreens="true"
+20-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:9:9-36
+21        android:normalScreens="true"
+21-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:10:9-37
+22        android:resizeable="true"
+22-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:11:9-34
+23        android:smallScreens="true" /> <!-- 适配android 13 图片选择权限 -->
+23-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:12:9-36
+24    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+24-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-76
+24-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:17:22-73
+25    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+25-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:18:5-75
+25-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:18:22-72
+26    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+26-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:19:5-90
+26-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:19:22-87
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:21:5-79
+27-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:21:22-76
+28    <!--
+29    <uses-permission
+30        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+31    -->
+32    <!-- 华为修改角标需要设置权限 -->
+33    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
+33-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:27:5-91
+33-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:27:22-88
+34    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+34-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:29:5-83
+34-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:29:22-80
+35
+36    <queries>
+36-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:31:5-40:15
+37        <intent>
+37-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:32:9-34:18
+38            <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:28:17-69
+38-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:28:25-66
+39        </intent>
+40        <intent>
+40-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:32:9-34:18
+41            <action android:name="android.intent.action.VIEW" />
+41-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:44:17-69
+41-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:44:25-66
+42
+43            <category android:name="android.intent.category.DEFAULT" />
+43-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:42:17-76
+43-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:42:27-73
+44        </intent>
+45    </queries>
+46
+47    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
+47-->[:oaid_sdk_1.0.25:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\f1e00e6944b1fef8e4985cae2b364ce1\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:5-76
+47-->[:oaid_sdk_1.0.25:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\f1e00e6944b1fef8e4985cae2b364ce1\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:22-73
+48    <uses-permission android:name="freemme.permission.msa" />
+48-->[:oaid_sdk_1.0.25:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\f1e00e6944b1fef8e4985cae2b364ce1\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:5-62
+48-->[:oaid_sdk_1.0.25:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\f1e00e6944b1fef8e4985cae2b364ce1\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:22-59
+49    <uses-permission android:name="android.permission.FLASHLIGHT" />
+49-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:17:5-69
+49-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:17:22-66
+50
+51    <uses-feature android:name="android.hardware.camera" />
+51-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:19:5-60
+51-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:19:19-57
+52    <uses-feature android:name="android.hardware.camera.autofocus" />
+52-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:20:5-70
+52-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:20:19-67
+53    <uses-feature android:name="android.hardware.camera.flash" />
+53-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:21:5-66
+53-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:21:19-63
+54
+55    <application
+55-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:11:5-51:19
+56        android:name="io.dcloud.application.DCloudApplication"
+56-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:173:9-63
+57        android:allowBackup="true"
+57-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:12:9-35
+58        android:allowClearUserData="true"
+58-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:13:9-42
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.1.0] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\375e1e77e168bbfcbeb5d907f27b95c9\core-1.1.0\AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="true"
+61-->[:uniapp-v8-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bfa28ee257447c31a2f2cc37fcc3b17d\jetified-uniapp-v8-release\AndroidManifest.xml:29:18-50
+62        android:icon="@drawable/icon"
+62-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:14:9-38
+63        android:label="@string/app_name"
+63-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:15:9-41
+64        android:largeHeap="true"
+64-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:16:9-33
+65        android:supportsRtl="true"
+65-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:17:9-35
+66        android:usesCleartextTraffic="true" >
+66-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:175:9-44
+67        <activity
+67-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:18:9-31:20
+68            android:name="io.dcloud.PandoraEntry"
+68-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:19:13-50
+69            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+69-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:20:13-83
+70            android:hardwareAccelerated="true"
+70-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:23:13-47
+71            android:label="@string/app_name"
+71-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:21:13-45
+72            android:launchMode="singleTask"
+72-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:22:13-44
+73            android:screenOrientation="user"
+73-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:25:13-45
+74            android:theme="@style/TranslucentTheme"
+74-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:24:13-52
+75            android:windowSoftInputMode="adjustResize" >
+75-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:26:13-55
+76            <intent-filter>
+76-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:27:13-30:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:28:17-69
+77-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:28:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:29:17-77
+79-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:29:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:32:9-47:20
+83            android:name="io.dcloud.PandoraEntryActivity"
+83-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:33:13-58
+84            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard|smallestScreenSize|screenLayout|screenSize|uiMode"
+84-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:35:13-151
+85            android:hardwareAccelerated="true"
+85-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:36:13-47
+86            android:launchMode="singleTask"
+86-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:34:13-44
+87            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
+87-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:37:13-89
+88            android:screenOrientation="user"
+88-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:38:13-45
+89            android:theme="@style/DCloudTheme"
+89-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:39:13-47
+90            android:windowSoftInputMode="adjustResize" >
+90-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:40:13-55
+91            <intent-filter>
+91-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:41:13-46:29
+92                <category android:name="android.intent.category.DEFAULT" />
+92-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:42:17-76
+92-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:42:27-73
+93                <category android:name="android.intent.category.BROWSABLE" />
+93-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:43:17-78
+93-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:43:27-75
+94
+95                <action android:name="android.intent.action.VIEW" />
+95-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:44:17-69
+95-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:44:25-66
+96
+97                <data android:scheme=" " />
+97-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:45:17-44
+97-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:45:23-41
+98            </intent-filter>
+99        </activity>
+100
+101        <meta-data
+101-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:48:9-50:64
+102            android:name="dcloud_appkey"
+102-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:49:13-41
+103            android:value="3365e2b15dd8aa5b6a774a68ed1d4901" />
+103-->C:\Users\longli\Desktop\android\HBuilder-Integrate-AS\simpleDemo\src\main\AndroidManifest.xml:50:13-61
+104        <!--
+105        <activity
+106            android:name="io.dcloud.imagepick.CustomGalleryActivity"
+107            android:noHistory="true"
+108            android:exported="false"/>
+109        -->
+110        <activity
+110-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:184:9-190:56
+111            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
+111-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:185:13-79
+112            android:configChanges="orientation|keyboardHidden"
+112-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:186:13-63
+113            android:exported="false"
+113-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:187:13-37
+114            android:noHistory="false"
+114-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:188:13-38
+115            android:screenOrientation="behind"
+115-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:189:13-47
+116            android:theme="@style/DCloudTheme.Light" />
+116-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:190:13-53
+117        <activity
+117-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:191:9-200:58
+118            android:name="io.dcloud.WebAppActivity"
+118-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:192:13-52
+119            android:configChanges="orientation|keyboard|keyboardHidden|smallestScreenSize|screenLayout|screenSize|mcc|mnc|fontScale|navigation"
+119-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:193:13-144
+120            android:hardwareAccelerated="true"
+120-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:194:13-47
+121            android:icon="@drawable/dcloud_recent"
+121-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:195:13-51
+122            android:label="@string/stream_my"
+122-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:196:13-46
+123            android:launchMode="singleTask"
+123-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:197:13-44
+124            android:screenOrientation="portrait"
+124-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:198:13-49
+125            android:theme="@style/DCloudTheme"
+125-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:199:13-47
+126            android:windowSoftInputMode="adjustResize" />
+126-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:200:13-55
+127        <activity
+127-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:201:9-205:75
+128            android:name="io.dcloud.ProcessMediator"
+128-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:202:13-53
+129            android:excludeFromRecents="true"
+129-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:203:13-46
+130            android:exported="false"
+130-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:204:13-37
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:205:13-72
+132        <activity
+132-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:206:9-212:20
+133            android:name="io.dcloud.WebviewActivity"
+133-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:207:13-53
+134            android:exported="false"
+134-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:208:13-37
+135            android:screenOrientation="portrait"
+135-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:209:13-49
+136            android:theme="@style/AppCompat.ThemeNoTitleBar"
+136-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:210:13-61
+137            android:windowSoftInputMode="adjustPan" >
+137-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:211:13-52
+138        </activity> <!-- gallery******start -->
+139        <activity
+139-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:215:9-220:63
+140            android:name="com.dmcbig.mediapicker.PickerActivity"
+140-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:216:13-65
+141            android:configChanges="orientation|screenSize"
+141-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:217:13-59
+142            android:exported="false"
+142-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:218:13-37
+143            android:theme="@style/DeviceDefault.Light"
+143-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:219:13-55
+144            android:windowSoftInputMode="stateAlwaysHidden" />
+144-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:220:13-60
+145        <activity
+145-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:221:9-226:63
+146            android:name="com.dmcbig.mediapicker.PreviewActivity"
+146-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:222:13-66
+147            android:configChanges="orientation|screenSize"
+147-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:223:13-59
+148            android:exported="false"
+148-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:224:13-37
+149            android:theme="@style/DeviceDefault.Light"
+149-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:225:13-55
+150            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- gallery******end -->
+150-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:226:13-60
+151        <provider
+151-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:229:9-237:20
+152            android:name="io.dcloud.common.util.DCloud_FileProvider"
+152-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:230:13-69
+153            android:authorities="cn.com.spdbfl.dc.fileprovider"
+153-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:231:13-67
+154            android:exported="false"
+154-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:232:13-37
+155            android:grantUriPermissions="true" >
+155-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:233:13-47
+156            <meta-data
+156-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
+157                android:name="android.support.FILE_PROVIDER_PATHS"
+157-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
+158                android:resource="@xml/dcloud_file_provider" />
+158-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
+159        </provider>
+160        <!--
+161            <meta-data
+162            android:name="DCLOUD_STREAMAPP_CHANNEL"
+163            android:value="io.dcloud.%APPID%|%APPID%|" />
+164        -->
+165        <meta-data
+165-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:244:9-246:35
+166            android:name="android.max_aspect"
+166-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:245:13-46
+167            android:value="2.4" />
+167-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:246:13-32
+168
+169        <activity
+169-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:248:9-253:63
+170            android:name="io.dcloud.feature.gallery.imageedit.IMGEditActivity"
+170-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:249:13-79
+171            android:configChanges="orientation|keyboardHidden|screenSize"
+171-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:250:13-74
+172            android:exported="false"
+172-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:251:13-37
+173            android:theme="@style/ImageEditTheme"
+173-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:252:13-50
+174            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 广告相关配置开始 -->
+174-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:253:13-60
+175        <activity
+175-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:256:9-261:55
+176            android:name="io.dcloud.sdk.activity.WebViewActivity"
+176-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:257:13-66
+177            android:exported="false"
+177-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:258:13-37
+178            android:screenOrientation="portrait"
+178-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:259:13-49
+179            android:theme="@style/ThemeNoTitleBar"
+179-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:260:13-51
+180            android:windowSoftInputMode="adjustPan" />
+180-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:261:13-52
+181
+182        <service
+182-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:263:9-266:72
+183            android:name="io.dcloud.sdk.base.service.DownloadService"
+183-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:264:13-70
+184            android:exported="false"
+184-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:265:13-37
+185            android:permission="android.permission.BIND_JOB_SERVICE" />
+185-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:266:13-69
+186
+187        <provider
+187-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:268:9-276:20
+188            android:name="io.dcloud.sdk.base.service.provider.DCloudAdFileProvider"
+188-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:269:13-84
+189            android:authorities="cn.com.spdbfl.dc.fileprovider"
+189-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:270:13-67
+190            android:exported="false"
+190-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:271:13-37
+191            android:grantUriPermissions="true" >
+191-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:272:13-47
+192            <meta-data
+192-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
+193                android:name="android.support.FILE_PROVIDER_PATHS"
+193-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
+194                android:resource="@xml/dcloud_gg_file_provider" />
+194-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
+195        </provider>
+196
+197        <receiver
+197-->[:uniapp-v8-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bfa28ee257447c31a2f2cc37fcc3b17d\jetified-uniapp-v8-release\AndroidManifest.xml:30:9-34:20
+198            android:name="com.taobao.weex.WXGlobalEventReceiver"
+198-->[:uniapp-v8-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bfa28ee257447c31a2f2cc37fcc3b17d\jetified-uniapp-v8-release\AndroidManifest.xml:31:13-65
+199            android:enabled="true"
+199-->[:uniapp-v8-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bfa28ee257447c31a2f2cc37fcc3b17d\jetified-uniapp-v8-release\AndroidManifest.xml:32:13-35
+200            android:exported="false" >
+200-->[:uniapp-v8-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bfa28ee257447c31a2f2cc37fcc3b17d\jetified-uniapp-v8-release\AndroidManifest.xml:33:13-37
+201        </receiver>
+202
+203        <activity
+203-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:12:9-16:65
+204            android:name="com.bairuitech.anychat.fishbanksdk.business.videochat.ui.activity.WaitEnterRoomActivity"
+204-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:13:13-115
+205            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+205-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:14:13-106
+206            android:screenOrientation="portrait"
+206-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:15:13-49
+207            android:theme="@style/ComponentTheme_NoActionBar" />
+207-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:16:13-62
+208        <activity
+208-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:17:9-20:65
+209            android:name="com.bairuitech.anychat.fishbanksdk.business.videochat.ui.activity.QualityResultActivity"
+209-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:18:13-115
+210            android:screenOrientation="portrait"
+210-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:19:13-49
+211            android:theme="@style/ComponentTheme_NoActionBar" /> <!-- 录制页面 -->
+211-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:20:13-62
+212        <activity
+212-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:23:9-27:65
+213            android:name="com.bairuitech.anychat.fishbanksdk.business.videochat.ui.activity.BRRecordVideoActivity"
+213-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:24:13-115
+214            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+214-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:25:13-106
+215            android:screenOrientation="portrait"
+215-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:26:13-49
+216            android:theme="@style/ComponentTheme_NoActionBar" />
+216-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:27:13-62
+217        <activity
+217-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:28:9-32:65
+218            android:name="com.bairuitech.anychat.fishbanksdk.business.banksdk.ui.BankWaitEnterRoomActivity"
+218-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:29:13-108
+219            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+219-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:30:13-106
+220            android:screenOrientation="portrait"
+220-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:31:13-49
+221            android:theme="@style/ComponentTheme_NoActionBar" /> <!-- 录制页面 -->
+221-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:32:13-62
+222        <activity
+222-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:34:9-38:65
+223            android:name="com.bairuitech.anychat.fishbanksdk.business.banksdk.ui.BRBankRecordVideoActivity"
+223-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:35:13-108
+224            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+224-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:36:13-106
+225            android:screenOrientation="portrait"
+225-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:37:13-49
+226            android:theme="@style/ComponentTheme_NoActionBar" />
+226-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:38:13-62
+227        <activity
+227-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:39:9-43:65
+228            android:name="com.bairuitech.anychat.fishbanksdk.business.banksdk.ui.BankRecordResultActivity"
+228-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:40:13-107
+229            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+229-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:41:13-106
+230            android:screenOrientation="portrait"
+230-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:42:13-49
+231            android:theme="@style/ComponentTheme_NoActionBar" />
+231-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:43:13-62
+232        <activity
+232-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:44:9-48:65
+233            android:name="com.bairuitech.anychat.interview.business.queue.view.BRQueueActivity"
+233-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:45:13-96
+234            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+234-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:46:13-106
+235            android:screenOrientation="portrait"
+235-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:47:13-49
+236            android:theme="@style/ComponentTheme_NoActionBar" />
+236-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:48:13-62
+237
+238        <service
+238-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:50:9-54:63
+239            android:name="com.bairuitech.anychat.fishbanksdk.business.videochat.ui.service.MediaService"
+239-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:51:13-105
+240            android:enabled="true"
+240-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:52:13-35
+241            android:exported="true"
+241-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:53:13-36
+242            android:foregroundServiceType="mediaProjection" /> <!-- image_picker -->
+242-->[:AnyChatLoanInterviewRemote:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\bca4474880a51c8f76b9b702b229e3b8\jetified-AnyChatLoanInterviewRemote\AndroidManifest.xml:54:13-60
+243        <!-- Android 7.0+文件共享配置,必须配置 -->
+244        <provider
+244-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:27:9-35:20
+245            android:name="com.anychat.base.sdkcommon.imagepicker.provider.ImagePickerProvider"
+245-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:28:13-95
+246            android:authorities="cn.com.spdbfl.provider"
+246-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:29:13-60
+247            android:exported="false"
+247-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:30:13-37
+248            android:grantUriPermissions="true" >
+248-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:31:13-47
+249            <meta-data
+249-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
+250                android:name="android.support.FILE_PROVIDER_PATHS"
+250-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
+251                android:resource="@xml/base_anychat_sdk_image_picker" />
+251-->[:lib.5plus.base-release:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\084dd6ff35be7cc320051cf294a5dbc3\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
+252        </provider> <!-- 图片列表界面 -->
+253        <activity
+253-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:37:9-40:52
+254            android:name="com.anychat.base.sdkcommon.imagepicker.activity.ImagePickerActivity"
+254-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:38:13-95
+255            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+255-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:39:13-106
+256            android:screenOrientation="portrait" /> <!-- 大图预览界面 -->
+256-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:40:13-49
+257        <activity
+257-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:42:9-45:52
+258            android:name="com.anychat.base.sdkcommon.imagepicker.activity.ImagePreActivity"
+258-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:43:13-92
+259            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+259-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:44:13-106
+260            android:screenOrientation="portrait" /> <!-- 自定义证件照拍照界面 -->
+260-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:45:13-49
+261        <activity
+261-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:47:9-51:68
+262            android:name="com.anychat.base.sdkcommon.imagepicker.cardcamera.CameraActivity"
+262-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:48:13-92
+263            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+263-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:49:13-106
+264            android:screenOrientation="landscape"
+264-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:50:13-50
+265            android:theme="@style/base_Anychat_SDK_Camera_Theme" /> <!-- 视频回放界面 -->
+265-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:51:13-65
+266        <activity
+266-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:53:9-57:70
+267            android:name="com.anychat.base.sdkcommon.view.video.RecordVideoPlayActivity"
+267-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:54:13-89
+268            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
+268-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:55:13-106
+269            android:launchMode="singleTask"
+269-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:56:13-44
+270            android:windowSoftInputMode="adjustResize|stateHidden" />
+270-->[:AnyChatAIShuangLuBase:] C:\Users\longli\.gradle\caches\transforms-2\files-2.1\06503172df8b932d7f03fb989d640f2f\jetified-AnyChatAIShuangLuBase\AndroidManifest.xml:57:13-67
+271    </application>
+272
+273</manifest>

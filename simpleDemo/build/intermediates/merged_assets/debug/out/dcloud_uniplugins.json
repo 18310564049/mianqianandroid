@@ -1,0 +1,14 @@
+{
+  "nativePlugins": [
+    {
+      "plugins": [
+        {
+          "type": "module",
+          "name": "WaitModule",
+          "class": "com.spfl.test.uniplugin_module.WaitModule"
+        }
+      ]
+    }
+
+  ]
+}

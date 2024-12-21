@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: :AnyChatAIShuangLuBase:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06503172df8b932d7f03fb989d640f2f/jetified-AnyChatAIShuangLuBase/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06503172df8b932d7f03fb989d640f2f/jetified-AnyChatAIShuangLuBase/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06503172df8b932d7f03fb989d640f2f/jetified-AnyChatAIShuangLuBase/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06503172df8b932d7f03fb989d640f2f/jetified-AnyChatAIShuangLuBase/jars/libs/anychat-sdk-android.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/06503172df8b932d7f03fb989d640f2f/jetified-AnyChatAIShuangLuBase/jars/libs/anychat-status-bar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
